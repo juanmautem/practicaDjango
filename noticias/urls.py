@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('login/', Index.as_view()),
     path('users/', listadoUsers.as_view()),
+    path('userList/', listadoUsers2.as_view()),
 ]
