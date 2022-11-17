@@ -20,6 +20,7 @@ INSTALLED_APPS = [
     'applications.login',
     'applications.usuarios',
     'applications.documentos',
+    'applications.personas',
 
 ]
 
