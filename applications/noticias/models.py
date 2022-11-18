@@ -31,4 +31,4 @@ class picture(models.Model):
 
 
 	def __str__(self):
-		return str(self.id) + "-" + self.txtNotice
+		return str(self.id) + "-" + self.txtName
